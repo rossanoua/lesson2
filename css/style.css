@@ -1,0 +1,34 @@
+ul{
+    list-style: disc;
+    font-size: 16px;
+    color: yellowgreen;
+}
+
+.green{
+    background-color: green;
+}
+
+.list{
+    width:100px;
+    height:auto;
+    margin: 10px auto;
+
+}
+
+#red{
+    color: red;
+}
+
+
+ul > li{
+    background-color: yellow;
+}
+
+li > span {
+    color: pink;
+}
+
+ul > li:nth-child(even){
+    color: red;
+}
+
